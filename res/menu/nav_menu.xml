@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/NHome"
+            android:icon="@drawable/ic_home" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="@string/NProfile"
+            android:icon="@drawable/ic_person_edit" />
+
+        <item
+            android:id="@+id/nav_list"
+            android:title="@string/NList"
+            android:icon="@drawable/ic_list" />
+
+        <item
+            android:id="@+id/nav_scan_nfc"
+            android:title="@string/NScanNFC"
+            android:icon="@drawable/ic_nfc" />
+
+        <item
+            android:id="@+id/nav_scan_ocr"
+            android:title="@string/NScanOCR"
+            android:icon="@drawable/ic_scanner" />
+
+    </group>
+
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_report"
+                android:title="@string/NReport"
+                android:icon="@drawable/ic_report" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/NLogout"
+                android:icon="@drawable/ic_logout" />
+        </menu>
+    </item>
+
+</menu>

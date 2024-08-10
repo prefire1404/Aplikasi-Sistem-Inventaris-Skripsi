@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/boader_et_bg"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/rbReportType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laporan"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rbItemId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="ID Barang:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rbItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Nama Barang:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rbJumlahBarangDipinjam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Jumlah Barang yang dipinjam:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rbNamaPeminjam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Nama Peminjam:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rbTanggalPeminjaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tanggal Peminjaman:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rbWaktuPeminjaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Waktu Peminjaman:"
+        android:textStyle="bold" />
+</LinearLayout>

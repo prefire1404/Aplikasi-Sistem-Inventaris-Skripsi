@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="185dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:background="@drawable/header_nav"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_polinema"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NWelcome"
+        android:textColor="@color/black"
+        android:fontFamily="@font/allerta"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NDesc"
+        android:textColor="@color/black"
+        android:fontFamily="@font/allerta"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>

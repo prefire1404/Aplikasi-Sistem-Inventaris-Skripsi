@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/boader_et_bg">
+
+    <TextView
+        android:id="@+id/raReportType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laporan"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/raItemId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="ID Barang:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/raItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Nama Barang:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/raJumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Jumlah:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/raTanggalPenambahan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tanggal Penambahan:"
+        android:textStyle="bold" />
+</LinearLayout>
